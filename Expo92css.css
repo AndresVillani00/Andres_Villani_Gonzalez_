@@ -1,0 +1,117 @@
+body{
+    background-image:url(fondo.jpg);
+    text-align: justify;
+}
+
+a{
+    color: #F6D155;
+    text-decoration: none;
+}
+
+p#cabecera{
+    color: white;
+    background-color: #223A5E;
+    border-style: solid;
+    border-color: grey;
+    border-bottom: 5px;
+    text-align: center;
+    font-size: 1.8em;
+    font-variant: small-caps;
+}
+
+div#desarrollo{
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+h1{
+    color: brown;
+    border-bottom: solid;
+}
+
+h2{
+    color: brown;
+}
+
+p#indice{
+    text-align: center;
+}
+
+div#indice{
+    background-color: #223A5E;
+    color: white; 
+    margin: 2em; 
+    width: 15%;
+    text-align: left;
+    padding: 5px;
+    position: absolute;
+}
+
+a:hover{
+    border-bottom: solid;
+}
+
+table{
+    border-spacing: 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+th{
+    background-color: #223A5E;
+    color: white;
+}
+
+td#impar{
+    background-color: #C48F65;
+}
+
+td#par{
+    background-color: #D49F75;
+}
+
+p#img{
+    text-align: center;
+}
+
+p#img2{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 15%;
+    justify-content: space-between;
+}
+
+img#imagenes{
+    border-style: solid;
+    border-radius: 3px;
+    border-color: grey;
+    width: 20%;
+    height: 100%;
+}
+
+p#i{
+    text-align: center;
+}
+
+p#i2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+p#piePagina{
+    border-style: solid;
+    border-color: grey;
+    border-top: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: #223A5E;
+    color: white;
+}
